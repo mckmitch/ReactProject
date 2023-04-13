@@ -11,7 +11,7 @@ const SkillsList = () => {
             {skills.map((skill) => {
                 return (
                     <Col md='5' className='m-4' key={skill.id}>
-                        <PortfolioCard skill={skill} />
+                        <SkillCard skill={skill} />
                     </Col>
                 );
             })}

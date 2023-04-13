@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
-import { skillsReducer } from '../features/portfolios/skillsSlice';
-import { aboutMeReducer } from '../features/partners/aboutMeSlice';
+import { skillsReducer } from '../features/skills/skillsSlice';
+import { aboutMeReducer } from '../features/aboutMe/aboutMeSlice';
 
 export const store = configureStore({
     reducer: {
