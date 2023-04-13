@@ -5,7 +5,7 @@ import gamer from '../assets/img/gamer.JPG';
 import grad from '../assets/img/grad.JPG';
 
 
-export const AMOUTME = [
+export const ABOUTME = [
     {
         id: 0,
         name: 'NYU Graduation',

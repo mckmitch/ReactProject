@@ -5,7 +5,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import ResumePage from './pages/ResumePage';
 import './App.css';
-import PortfolioDetailPage from './pages/PortfolioDetailPage';
 import AboutPage from './pages/AboutPage';
 
 function App() {

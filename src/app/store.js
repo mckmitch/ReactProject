@@ -1,16 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
-import { portfoliosReducer } from '../features/portfolios/portfoliosSlice';
-import { commentsReducer } from '../features/comments/commentsSlice';
-import { partnersReducer } from '../features/partners/partnersSlice';
-import { promotionsReducer} from '../features/promotions/promotionsSlice';
+import { skillsReducer } from '../features/portfolios/skillsSlice';
+import { aboutMeReducer } from '../features/partners/aboutMeSlice';
 
 export const store = configureStore({
     reducer: {
-        portfolios: portfoliosReducer,
-        comments: commentsReducer,
-        partners: partnersReducer,
-        promotions: promotionsReducer
+        skills: skillsReducer,
+        aboutMe: aboutMeReducer
     },
     middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat([logger])
 });
