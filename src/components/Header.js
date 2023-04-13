@@ -5,7 +5,7 @@ import {
     Collapse,
     NavbarToggler,
     Nav,
-    NavItem
+    NavItem,
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import MMLogo from '../app/assets/img/favicon.ico';

@@ -3,7 +3,7 @@ import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import PortfoliosDirectoryPage from './pages/PortfoliosDirectoryPage';
+import ResumePage from './pages/ResumePage';
 import './App.css';
 import PortfolioDetailPage from './pages/PortfolioDetailPage';
 import AboutPage from './pages/AboutPage';
@@ -15,12 +15,8 @@ function App() {
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='contact' element={<ContactPage />} />
-                <Route path='directory' element={<PortfoliosDirectoryPage />} />
+                <Route path='resume' element={<ResumePage />} />
                 <Route path='about' element={<AboutPage />} />
-                <Route
-                    path='directory/:portfolioId'
-                    element={<PortfolioDetailPage />}
-                />
             </Routes>
             <Footer />
         </div>

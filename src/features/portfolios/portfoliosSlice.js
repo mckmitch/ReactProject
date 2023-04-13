@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { PORTFOLIOS } from '../../app/shared/PORTFOLIOS';
+import { PORTFOLIOS } from '../../app/shared/SKILLS';
 
 const initialState = {
     portfoliosArray: PORTFOLIOS
