@@ -5,7 +5,7 @@ import AboutMeList from '../features/aboutMe/AboutMeList.js';
 const AboutPage = () => {
     return (
         <Container>
-            <SubHeader current='About Us' />
+            <SubHeader current='About Me' />
             <Row className='row-content'>
                 <AboutMeList />
             </Row>

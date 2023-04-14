@@ -3,7 +3,7 @@ const AboutMe = ({ me }) => {
         const {image, name, description} = me;
         return (
             <>
-                <img src={image} alt={name} style={{ width: '150px' }}/>
+                <img src={image} alt={name} style={{ width: '600px' }}/>
                 <div className='m-4'>
                     <h5 className='fw-bold'>{name}</h5>
                     {description}

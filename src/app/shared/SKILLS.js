@@ -11,47 +11,50 @@ import pythonLogo from '../assets/img/python.png';
 export const SKILLS = [
     {
         id: 0,
-        name: 'Python',
-        image: pythonLogo,
+        name: 'SQL',
+        image: sqlServer,
+        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
         id: 1,
-        name: 'Java',
-        image: javaLogo,
+        name: 'GitHub',
+        image: githubSign,
+        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
         id: 2,
-        name: 'C',
-        image: cLogo,
-    },
-    {
-        id: 3,
-        name: 'JavaScript',
-        image: javaScriptLogo,
-    },
-    {
-        id: 4,
-        name: 'HTML',
-        image: htmlLogo,
-    },
-    {
-        id: 5,
-        name: 'css',
-        image: css3,
-    },
-    {
-        id: 6,
-        name: 'SQL',
-        image: sqlServer,
-    },
-    {
-        id: 7,
-        name: 'GitHub',
-        image: githubSign,
-    },
-    {
-        id: 8,
         name: 'Data Analytics',
         image: dataAnalytics,
+        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     }
+];
+
+export const SKILLCAROUSEL1 = [
+    {
+        src:pythonLogo,
+        altText:'Python',
+    },
+    {
+        src:javaLogo,
+        altText:'Java'
+    },
+    {
+        src:cLogo,
+        altText:'C'
+    },
+];
+
+export const SKILLCAROUSEL2 = [
+    {
+        src:css3,
+        altText:'css',
+    },
+    {
+        src:htmlLogo,
+        altText:'HTML'
+    },
+    {
+        src:javaScriptLogo,
+        altText:'JavaScript'
+    },
 ];

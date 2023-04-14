@@ -9,7 +9,7 @@ const AboutMeList = () => {
         <Col className='mt-4'>
             {aboutMe.map((me) => {
                 return (
-                    <div className='d=flex mb-5' key={me.id}>
+                    <div className='d-flex mb-5' key={me.id}>
                         <AboutMe me={me} />
                     </div>
                 );
