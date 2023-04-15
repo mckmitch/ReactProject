@@ -1,6 +1,6 @@
 import { Col } from 'reactstrap';
-import AboutMe from './AboutMe.js'
-import { selectAllAboutMe } from './aboutMeSlice.js'
+import AboutMe from './AboutMe.js';
+import { selectAllAboutMe } from './aboutMeSlice.js';
 import { useSelector } from 'react-redux';
 
 const AboutMeList = () => {
