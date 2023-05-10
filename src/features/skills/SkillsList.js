@@ -9,12 +9,12 @@ const SkillsList = () => {
     const descriptionPlaceholder = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 
 
-    console.log('skills:', skills);
+    console.log('skills:', skills); 
     return (
         <Row className='ms-auto'>
             <h1 style={{fontSize:"60px"}}>Skills</h1>
             <Col md='5' className='m-4'>
-                <UncontrolledCarousel items={SKILLCAROUSEL1} />
+                <UncontrolledCarousel items={SKILLCAROUSEL1} indicators='false' controls='false' />
             </Col>
             <Col md='5' className='m-4'>
                 <p className="fs-3">
@@ -22,7 +22,7 @@ const SkillsList = () => {
                 </p>
                 </Col>
             <Col md='5' className='m-4'>
-                <UncontrolledCarousel items={SKILLCAROUSEL2} />
+                <UncontrolledCarousel items={SKILLCAROUSEL2} indicators='false' controls='false' />
             </Col>
             <Col md='5' className='m-4'>
                 <p className="fs-3">
